@@ -18,3 +18,12 @@ executables:
   hspec-terminal-bug:
     source-dirs:      src
     main:             Main.hs
+
+tests:
+  wolf-test:
+    main:             Main.hs
+    source-dirs:      tests
+    dependencies:
+      - tasty >= 1.1.0.2 && < 2
+      - tasty-hspec >= 1.1.5 && < 2
+      - tasty-discover >= 4.2.1 && < 5
