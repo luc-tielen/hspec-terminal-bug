@@ -1,0 +1,1 @@
+# hspec-terminal-bug
